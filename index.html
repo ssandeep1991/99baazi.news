@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>99Baazi News – India’s Gaming Newsroom (2025)</title>
+  <meta name="description" content="99Baazi News is India’s gaming newsroom. Latest 2025 updates on esports, mobile gaming, policy, tournaments & industry deals. Click to play at 99baazi.com.">
+  <link rel="canonical" href="https://99baazi.news/">
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="99Baazi News – India’s Gaming Newsroom">
+  <meta property="og:description" content="Latest 2025 updates from India’s gaming industry. Play on 99baazi.com →">
+  <meta property="og:url" content="https://99baazi.news/">
+  <meta property="og:image" content="https://99baazi.news/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="99Baazi News – India’s Gaming Newsroom">
+  <meta name="twitter:description" content="Latest 2025 gaming news & trends. Click to play on 99baazi.com.">
+  <meta name="twitter:image" content="https://99baazi.news/og-image.jpg">
+
+  <!-- Favicons (replace with your files) -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Simple Styles -->
+  <style>
+    :root {
+      --brand:#121212;       /* Dark base */
+      --accent:#00e0ff;      /* Electric cyan accent */
+      --accent-2:#ffd400;    /* Gold accent */
+    }
+    body{background:#0b0b0b;color:#e9ecef;}
+    .navbar{background:linear-gradient(90deg,#0b0b0b,#171717);}
+    .btn-accent{
+      background:linear-gradient(90deg,var(--accent),var(--accent-2));
+      color:#000;font-weight:700;border:none;
+      box-shadow:0 10px 30px rgba(0,224,255,.25);
+    }
+    .btn-accent:hover{opacity:.95;transform:translateY(-1px)}
+    .hero{
+      background: radial-gradient(1200px 600px at 80% -10%, rgba(0,224,255,.18), transparent 60%),
+                  radial-gradient(900px 500px at -10% 20%, rgba(255,212,0,.16), transparent 60%),
+                  linear-gradient(180deg, #0b0b0b 0%, #0f0f10 100%);
+      padding: 6rem 0 3rem;
+    }
+    .badge-soft{background:rgba(0,224,255,.1);border:1px solid rgba(0,224,255,.25);color:#8be9ff}
+    .card{background:#131416;border:1px solid #202226}
+    .card h5{color:#fff}
+    .muted{color:#b9c0c7}
+    a, a:hover{color:#8be9ff}
+    .footer{border-top:1px solid #202226}
+  </style>
+
+  <!-- Google Analytics 4 (replace G-XXXX...) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXXX'); // <-- replace with your GA4 ID
+  </script>
+
+  <!-- Meta Pixel (replace 123456789012345) -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '123456789012345'); // <-- replace with your Pixel ID
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+         src="https://www.facebook.com/tr?id=123456789012345&ev=PageView&noscript=1"/>
+  </noscript>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"99Baazi News",
+    "url":"https://99baazi.news/",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://99baazi.news/?q={search_term_string}",
+      "query-input":"required name=search_term_string"
+    },
+    "publisher":{
+      "@type":"Organization",
+      "name":"99Baazi",
+      "url":"https://99baazi.news/",
+      "sameAs":["https://www.instagram.com/99baaziofficial","https://www.facebook.com/99baaziofficial"]
+    }
+  }
+  </script>
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="navbar navbar-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="/logo-99baazi-news.svg" width="34" height="34" alt="99Baazi News logo" class="me-2">
+      <strong>99Baazi<span class="text-info">.news</span></strong>
+    </a>
+    <div class="d-none d-md-flex gap-2">
+      <a class="btn btn-sm btn-outline-light" href="#highlights">Highlights</a>
+      <a class="btn btn-sm btn-outline-light" href="#latest">Latest</a>
+      <a class="btn btn-sm btn-outline-light" href="#faq">FAQ</a>
+    </div>
+    <a id="ctaTop" class="btn btn-sm btn-accent ms-3"
+       href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=landing&utm_campaign=redirect-2025"
+       target="_blank" rel="noopener">Play on 99Baazi.com</a>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7">
+        <span class="badge badge-soft rounded-pill px-3 py-2">India’s Gaming Newsroom • 2025</span>
+        <h1 class="display-5 fw-bold mt-3">Stay Informed. Click &amp; Play.</h1>
+        <p class="lead muted mt-3">
+          99Baazi News tracks esports, mobile gaming, policy shifts, and industry deals—then sends you to the action.
+          Your next game is one click away.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a id="ctaHero" class="btn btn-lg btn-accent"
+             href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=hero_cta&utm_campaign=redirect-2025"
+             target="_blank" rel="noopener">Go to 99Baazi.com →</a>
+          <a class="btn btn-outline-light btn-lg" href="#latest">See today’s headlines</a>
+        </div>
+        <p class="small text-secondary mt-3">Safe • Quick • Official redirection to 99Baazi.com</p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <img src="/hero-gaming-illustration.webp" class="img-fluid" alt="Gaming collage"
+             width="520" height="420" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Trust/Highlights -->
+<section id="highlights" class="py-5">
+  <div class="container">
+    <div class="row text-center g-4">
+      <div class="col-md-4">
+        <div class="card h-100 p-4">
+          <h5 class="mb-2">Real‑time Updates</h5>
+          <p class="muted mb-0">From policy changes to esports prize pools—we keep it fresh and factual.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 p-4">
+          <h5 class="mb-2">Made for India</h5>
+          <p class="muted mb-0">Focus on Indian titles, studios, streamers, and tournaments that matter.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 p-4">
+          <h5 class="mb-2">One‑Click Play</h5>
+          <p class="muted mb-0">Clear calls to action that take you straight to <strong>99baazi.com</strong>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Latest (static placeholders — replace with your CMS later) -->
+<section id="latest" class="py-5">
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between mb-3">
+      <h2 class="h3 mb-0">Today’s Headlines</h2>
+      <a class="link-light" href="#cta">Skip to Play →</a>
+    </div>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-4">
+        <article class="card h-100">
+          <div class="card-body">
+            <span class="badge bg-secondary mb-2">Esports</span>
+            <h5 class="card-title">Prize Pools Surge Across Indian Tournaments</h5>
+            <p class="card-text muted">Esports events continue to scale with bigger sponsors and larger prize purses across FPS and BR titles.</p>
+            <a class="stretched-link" href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=tile&utm_campaign=redirect-2025" target="_blank" rel="noopener">Play now</a>
+          </div>
+        </article>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-4">
+        <article class="card h-100">
+          <div class="card-body">
+            <span class="badge bg-secondary mb-2">Mobile</span>
+            <h5 class="card-title">Casual & Social Play Dominate Installs</h5>
+            <p class="card-text muted">India leads in downloads; studios double down on progression loops and friend-led gameplay.</p>
+            <a class="stretched-link" href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=tile&utm_campaign=redirect-2025" target="_blank" rel="noopener">Play now</a>
+          </div>
+        </article>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-4">
+        <article class="card h-100">
+          <div class="card-body">
+            <span class="badge bg-secondary mb-2">Business</span>
+            <h5 class="card-title">Studios Expand; New Partnerships Emerge</h5>
+            <p class="card-text muted">Indian publishers eye global IPs; creators collaborate with teams and platforms.</p>
+            <a class="stretched-link" href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=tile&utm_campaign=redirect-2025" target="_blank" rel="noopener">Play now</a>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="text-center mt-5">
+      <a id="ctaMid" class="btn btn-lg btn-accent px-5"
+         href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=mid_cta&utm_campaign=redirect-2025"
+         target="_blank" rel="noopener">Go to 99Baazi.com →</a>
+      <p class="small text-secondary mt-2">Takes you to the official platform in a new tab.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="py-5">
+  <div class="container">
+    <h2 class="h3 mb-4">FAQ</h2>
+    <div class="accordion" id="faqAcc">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="q1">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="false" aria-controls="a1">
+            What is 99Baazi News?
+          </button>
+        </h2>
+        <div id="a1" class="accordion-collapse collapse" aria-labelledby="q1" data-bs-parent="#faqAcc">
+          <div class="accordion-body">
+            We’re India’s gaming newsroom. We summarize what’s trending—and send you to the action on 99baazi.com.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="q2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">
+            Will I need a new account?
+          </button>
+        </h2>
+        <div id="a2" class="accordion-collapse collapse" aria-labelledby="q2" data-bs-parent="#faqAcc">
+          <div class="accordion-body">
+            If you already have a 99Baazi account, just log in on 99baazi.com. New users can sign up there in minutes.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="q3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">
+            Is this the official redirection?
+          </button>
+        </h2>
+        <div id="a3" class="accordion-collapse collapse" aria-labelledby="q3" data-bs-parent="#faqAcc">
+          <div class="accordion-body">
+            Yes—this page is managed by 99Baazi News and redirects to the official platform at 99baazi.com.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Final CTA -->
+<section id="cta" class="py-5">
+  <div class="container text-center">
+    <h2 class="h3">Ready to Play?</h2>
+    <p class="muted mb-4">Click below to continue to the official platform.</p>
+    <a id="ctaBottom" class="btn btn-lg btn-accent px-5"
+       href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=bottom_cta&utm_campaign=redirect-2025"
+       target="_blank" rel="noopener">Go to 99Baazi.com →</a>
+    <div class="mt-3">
+      <!-- Optional WhatsApp assist (replace number if needed) -->
+      <a class="link-light small" href="https://wa.me/447724001515?text=Hi%20Team%2099Baazi,%20need%20help%20getting%20started."
+         target="_blank" rel="noopener">Need help? Chat on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer py-4">
+  <div class="container d-flex flex-wrap justify-content-between align-items-center">
+    <p class="mb-0 small text-secondary">© <span id="year"></span> 99Baazi News • All rights reserved.</p>
+    <div class="small">
+      <a class="link-secondary me-3" href="#">Privacy</a>
+      <a class="link-secondary me-3" href="#">Terms</a>
+      <a class="link-secondary" href="mailto:hello@99baazi.news">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+<!-- Utility: dynamic year + tracking for CTA clicks -->
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  const track = id => {
+    const el = document.getElementById(id);
+    if(!el) return;
+    el.addEventListener('click', () => {
+      // GA4 event
+      if (typeof gtag === 'function') {
+        gtag('event', 'click', {
+          event_category: 'CTA',
+          event_label: id,
+          destination: 'https://99baazi.com/'
+        });
+      }
+      // Meta Pixel event
+      if (typeof fbq === 'function') {
+        fbq('trackCustom', 'CTAClick', { id, destination: 'https://99baazi.com/' });
+      }
+    });
+  };
+  ['ctaTop', 'ctaHero', 'ctaMid', 'ctaBottom'].forEach(track);
+</script>
+
+</body>
+</html>
