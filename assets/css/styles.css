@@ -1,0 +1,148 @@
+:root {
+  --brand:#121212;
+  --accent:#00e0ff;
+  --accent-2:#ffd400;
+}
+body{background:#0b0b0b;color:#e9ecef}
+.navbar{background:linear-gradient(90deg,#0b0b0b,#171717)}
+.btn-accent{
+  background:linear-gradient(90deg,var(--accent),var(--accent-2));
+  color:#000;font-weight:700;border:none;
+  box-shadow:0 10px 30px rgba(0,224,255,.25)
+}
+.btn-accent:hover{opacity:.95;transform:translateY(-1px)}
+.hero{
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(0,224,255,.18), transparent 60%),
+    radial-gradient(900px 500px at -10% 20%, rgba(255,212,0,.16), transparent 60%),
+    linear-gradient(180deg, #0b0b0b 0%, #0f0f10 100%);
+  padding: 6rem 0 3rem
+}
+.badge-soft{background:rgba(0,224,255,.1);border:1px solid rgba(0,224,255,.25);color:#8be9ff}
+.card{background:#131416;border:1px solid #202226}
+.card h5{color:#fff}
+.muted{color:#b9c0c7}
+a, a:hover{color:#8be9ff}
+.footer{border-top:1px solid #202226}
+
+
+.footer h5, .footer h6 {
+  font-weight: 600;
+}
+.footer .bi {
+  transition: transform 0.2s ease;
+}
+.footer .bi:hover {
+  transform: scale(1.2);
+}
+.navbar .nav-link {
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+.navbar .nav-link:hover {
+  color: var(--accent);
+}
+
+/* Dark accordion overrides */
+.accordion-dark .accordion-item {
+  background-color: #131416;
+  border: 1px solid #202226;
+}
+
+.accordion-dark .accordion-button {
+  background-color: #131416;
+  color: #e9ecef;
+}
+
+.accordion-dark .accordion-button:not(.collapsed) {
+  color: var(--accent);
+  background-color: #1a1c1f;
+  box-shadow: none;
+}
+
+.accordion-dark .accordion-button:focus {
+  box-shadow: none;
+  border-color: var(--accent);
+}
+
+.accordion-dark .accordion-body {
+  background-color: #1a1c1f;
+  color: #b9c0c7;
+}
+
+
+
+/* Bootstrap 5.3 variable-based dark theme for accordion */
+.accordion.accordion-dark {
+  --bs-accordion-color: #e9ecef;
+  --bs-accordion-bg: #131416;
+  --bs-accordion-border-color: #202226;
+
+  --bs-accordion-btn-color: #e9ecef;
+  --bs-accordion-btn-bg: #131416;
+  --bs-accordion-btn-icon: none;            /* use color vars instead of svg tint */
+  --bs-accordion-btn-icon-width: 1.25rem;
+
+  --bs-accordion-active-color: var(--accent);
+  --bs-accordion-active-bg: #1a1c1f;
+
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-btn-focus-border-color: var(--accent);
+
+  --bs-accordion-icon-color: #b9c0c7;       /* caret color (collapsed) */
+  --bs-accordion-icon-active-color: var(--accent); /* caret when open */
+}
+
+/* Ensure backgrounds/borders apply in all variants */
+.accordion.accordion-dark .accordion-item {
+  background-color: var(--bs-accordion-bg);
+  border: 1px solid var(--bs-accordion-border-color);
+}
+.accordion.accordion-dark .accordion-button {
+  background-color: var(--bs-accordion-btn-bg);
+  color: var(--bs-accordion-btn-color);
+  box-shadow: none;
+}
+.accordion.accordion-dark .accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+  background-color: var(--bs-accordion-active-bg);
+}
+
+/* If you use .accordion-flush anywhere */
+.accordion.accordion-dark.accordion-flush .accordion-item {
+  border: 0; /* flush removes borders */
+  background-color: var(--bs-accordion-bg);
+}
+.accordion.accordion-dark.accordion-flush .accordion-button {
+  background-color: var(--bs-accordion-bg);
+}
+
+/* Body text inside */
+.accordion.accordion-dark .accordion-body {
+  background-color: #1a1c1f;
+  color: #b9c0c7;
+  border-top: 1px solid var(--bs-accordion-border-color);
+}
+
+
+/* Long-form typography on dark */
+.prose-dark p { line-height: 1.7; color: #cfd6dc; }
+.prose-dark ul { margin: 0 0 1rem 1.25rem; color: #cfd6dc; }
+.prose-dark li { margin-bottom: .4rem; }
+.prose-dark em { color: #e0e6eb; }
+.prose-dark strong { color: #ffffff; }
+
+/* Topic chips */
+.chip, .chip-link {
+  display: inline-block;
+  padding: .35rem .6rem;
+  border-radius: 999px;
+  font-size: .85rem;
+  border: 1px solid #202226;
+  background: #131416;
+  color: #e9ecef;
+  text-decoration: none;
+}
+.chip-link:hover { border-color: var(--accent); color: #8be9ff; }
+
+

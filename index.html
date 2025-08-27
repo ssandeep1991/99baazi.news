@@ -25,8 +25,14 @@
   <!-- Bootstrap CSS (CDN or local) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <link href="/assets/css/style.css" rel="stylesheet">
-  <link href="assets/js/main.js" rel="script">
+  <link href="/assets/css/styles.css" rel="stylesheet"> <!-- your overrides last -->
+
+  <!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+
+  <link href="/assets/js/main.js" rel="script">
+
 
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXXX"></script>
@@ -87,21 +93,28 @@
       <div class="row align-items-center g-5">
         <div class="col-lg-7">
           <span class="badge badge-soft rounded-pill px-3 py-2">India’s Gaming Newsroom • 2025</span>
-          <h1 class="display-5 fw-bold mt-3">Stay Informed. Click &amp; Play.</h1>
+          <h1 class="display-5 fw-bold mt-3">India’s Gaming, Esports & Policy—In One Place</h1>
           <p class="lead muted mt-3">
-            99Baazi News tracks esports, mobile gaming, policy shifts, and industry deals—then sends you to the action.
-            Your next game is one click away.
+            99Baazi News brings you in-depth coverage of India’s gaming ecosystem—esports, fantasy sports,
+            casual & mobile gaming, real-money gaming, gambling regulation, taxation, startup funding,
+            creator economy, and government policy updates.
           </p>
+
+          <!-- Neutral CTAs (no 99baazi.com) -->
           <div class="d-flex flex-wrap gap-3 mt-4">
-            <a id="ctaHero" class="btn btn-lg btn-accent"
-              href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=hero_cta&utm_campaign=redirect-2025"
-              target="_blank" rel="noopener">Go to 99Baazi.com →</a>
-            <a class="btn btn-outline-light btn-lg" href="#latest">See today’s headlines</a>
+            <a class="btn btn-lg btn-accent"
+               href="https://news.google.com/search?q=india%20gaming%20industry%20policy%20esports%20fantasy%20sports%20rmg"
+               target="_blank" rel="noopener">Browse Gaming on Google News →</a>
+            <a class="btn btn-outline-light btn-lg"
+               href="#regulatory-tracker">See Regulatory Tracker</a>
           </div>
-          <p class="small text-secondary mt-3">Safe • Quick • Official redirection to 99Baazi.com</p>
+
+          <p class="small text-secondary mt-3">
+            Transparent, independent reporting for gamers, founders, publishers, policymakers, and investors.
+          </p>
         </div>
         <div class="col-lg-5 text-center">
-          <img src="/assets/img/hero-gaming-illustration.webp" class="img-fluid" alt="Gaming collage"
+          <img src="/assets/img/hero.png" class="img-fluid" alt="Gaming collage"
                width="520" height="420" loading="lazy">
         </div>
       </div>
@@ -114,89 +127,306 @@
       <div class="row text-center g-4">
         <div class="col-md-4">
           <div class="card h-100 p-4">
-            <h5 class="mb-2">Real-time Updates</h5>
-            <p class="muted mb-0">From policy changes to esports prize pools—we keep it fresh and factual.</p>
+            <h5 class="mb-2">Real-time News & Analysis</h5>
+            <p class="muted mb-0">Esports, fantasy gaming, casino & gambling regulation, tax policy (GST/TDS), and more—summarized for busy readers.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card h-100 p-4">
             <h5 class="mb-2">Made for India</h5>
-            <p class="muted mb-0">Focus on Indian titles, studios, streamers, and tournaments that matter.</p>
+            <p class="muted mb-0">Indian publishers, studios, tournaments, creators, and legal updates—tracked with context that matters here.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card h-100 p-4">
-            <h5 class="mb-2">One-Click Play</h5>
-            <p class="muted mb-0">Clear calls to action that take you straight to <strong>99baazi.com</strong>.</p>
+            <h5 class="mb-2">Policy & Compliance</h5>
+            <p class="muted mb-0">Follow drafts, bills, advisories, court cases, and state-level notifications with primary source links.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Latest -->
-  <section id="latest" class="py-5">
+  <!-- Editorial Intro / About -->
+  <section id="about" class="py-5">
     <div class="container">
-      <div class="d-flex align-items-center justify-content-between mb-3">
-        <h2 class="h3 mb-0">Today’s Headlines</h2>
-        <a class="link-light" href="#cta">Skip to Play →</a>
-      </div>
-
+      <h2 class="h3 mb-3">About 99Baazi News</h2>
       <div class="row g-4">
-        <div class="col-md-6 col-lg-4">
-          <article class="card h-100">
-            <div class="card-body">
-              <span class="badge bg-secondary mb-2">Esports</span>
-              <h5 class="card-title">Prize Pools Surge Across Indian Tournaments</h5>
-              <p class="card-text muted">Esports events continue to scale with bigger sponsors and larger prize purses across FPS and BR titles.</p>
-              <a class="stretched-link"
-                 href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=tile&utm_campaign=redirect-2025"
-                 target="_blank" rel="noopener">Play now</a>
-            </div>
-          </article>
+        <div class="col-lg-8">
+          <div class="prose-dark">
+            <p>
+              <strong>99Baazi News</strong> is an independent newsroom focused on India’s interactive entertainment
+              landscape. We cover <em>gaming industry news</em>, <em>esports tournament results</em>, <em>fantasy sports trends</em>,
+              <em>real-money gaming (RMG)</em>, and <em>gambling regulation</em> with deep context. Our reporting bridges
+              policy and product—tracking how laws, court judgments, and taxation shape the games people play.
+            </p>
+            <p>
+              Expect explainers for newcomers and practitioners alike: state-wise regulatory views, compliance checklists,
+              business model breakdowns, monetization trends, ad-tech shifts, age-gating best practices, and consumer protection
+              developments. If it impacts India’s gaming community—players, streamers, founders, or investors—you’ll find it here.
+            </p>
+            <ul>
+              <li><strong>Beat Coverage:</strong> Esports • Fantasy Sports • RMG • Casino/Gambling • Mobile & PC/Console • Creators & Streaming</li>
+              <li><strong>Business:</strong> Funding, M&amp;A, partnerships, publishing deals, brand sponsorships, live-ops &amp; UA</li>
+              <li><strong>Policy:</strong> Central/state bills, rules, advisories, taxation (GST/TDS), consumer &amp; KYC norms</li>
+              <li><strong>Technology:</strong> Anti-cheat, netcode, payments/UPI, identity/KYC, data privacy, cloud &amp; infra</li>
+            </ul>
+          </div>
         </div>
-
-        <div class="col-md-6 col-lg-4">
-          <article class="card h-100">
-            <div class="card-body">
-              <span class="badge bg-secondary mb-2">Mobile</span>
-              <h5 class="card-title">Casual & Social Play Dominate Installs</h5>
-              <p class="card-text muted">India leads in downloads; studios double down on progression loops and friend-led gameplay.</p>
-              <a class="stretched-link"
-                 href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=tile&utm_campaign=redirect-2025"
-                 target="_blank" rel="noopener">Play now</a>
+        <div class="col-lg-4">
+          <!-- Tag cloud / quick topics -->
+          <div class="card h-100 p-4">
+            <h5 class="mb-3">Trending Topics</h5>
+            <div class="d-flex flex-wrap gap-2">
+              <span class="chip">Esports tournaments</span>
+              <span class="chip">Fantasy sports legality</span>
+              <span class="chip">RMG compliance</span>
+              <span class="chip">GST on gaming</span>
+              <span class="chip">Age-gating</span>
+              <span class="chip">KYC &amp; fraud</span>
+              <span class="chip">Creators &amp; live-streams</span>
+              <span class="chip">Mobile downloads</span>
+              <span class="chip">Ad-tech &amp; monetization</span>
+              <span class="chip">Court rulings</span>
             </div>
-          </article>
+          </div>
         </div>
-
-        <div class="col-md-6 col-lg-4">
-          <article class="card h-100">
-            <div class="card-body">
-              <span class="badge bg-secondary mb-2">Business</span>
-              <h5 class="card-title">Studios Expand; New Partnerships Emerge</h5>
-              <p class="card-text muted">Indian publishers eye global IPs; creators collaborate with teams and platforms.</p>
-              <a class="stretched-link"
-                 href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=tile&utm_campaign=redirect-2025"
-                 target="_blank" rel="noopener">Play now</a>
-            </div>
-          </article>
-        </div>
-      </div>
-
-      <div class="text-center mt-5">
-        <a id="ctaMid" class="btn btn-lg btn-accent px-5"
-           href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=mid_cta&utm_campaign=redirect-2025"
-           target="_blank" rel="noopener">Go to 99Baazi.com →</a>
-        <p class="small text-secondary mt-2">Takes you to the official platform in a new tab.</p>
       </div>
     </div>
   </section>
 
-  <!-- FAQ -->
-  <section id="faq" class="py-5">
+  <!-- Latest / Topic Lanes (neutral links) -->
+  <section id="latest" class="py-5">
     <div class="container">
-      <h2 class="h3 mb-4">FAQ</h2>
-      <div class="accordion" id="faqAcc">
+      <div class="d-flex align-items-center justify-content-between mb-3">
+        <h2 class="h3 mb-0">Latest Coverage & Useful Searches</h2>
+        <a class="link-light" href="#regulatory-tracker">Jump to Regulatory Tracker →</a>
+      </div>
+
+      <div class="row g-4">
+        <!-- Esports -->
+        <div class="col-md-6 col-lg-4">
+          <article class="card h-100">
+            <div class="card-body">
+              <span class="badge bg-secondary mb-2">Esports</span>
+              <h5 class="card-title">Prize Pools, Leagues & Team Moves</h5>
+              <p class="card-text muted">
+                Follow Indian tournament calendars, publisher announcements, roster changes, LANs, and viewership milestones.
+              </p>
+              <a class="stretched-link"
+                 href="https://news.google.com/search?q=india%20esports%20tournament%20prize%20pool%202025"
+                 target="_blank" rel="noopener" aria-label="Open Google News: India esports">Read more on Google News</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- Fantasy Sports -->
+        <div class="col-md-6 col-lg-4">
+          <article class="card h-100">
+            <div class="card-body">
+              <span class="badge bg-secondary mb-2">Fantasy Sports</span>
+              <h5 class="card-title">Fantasy Leagues, Rules & Consumer Safety</h5>
+              <p class="card-text muted">
+                Track platform policies, responsible play guidelines, KYC updates, and match-day participation trends.
+              </p>
+              <a class="stretched-link"
+                 href="https://news.google.com/search?q=india%20fantasy%20sports%20policy%20guidelines%20court%20rulings"
+                 target="_blank" rel="noopener" aria-label="Open Google News: fantasy sports policy">Read more on Google News</a>
+            </div>
+          </article>
+        </div>
+
+        <!-- RMG / Gambling Policy -->
+        <div class="col-md-6 col-lg-4">
+          <article class="card h-100">
+            <div class="card-body">
+              <span class="badge bg-secondary mb-2">RMG &amp; Gambling</span>
+              <h5 class="card-title">Legal Landscape, GST & Compliance</h5>
+              <p class="card-text muted">
+                Stay on top of bills, notifications, taxation updates, and compliance advisories that impact operators and players.
+              </p>
+              <a class="stretched-link"
+                 href="https://news.google.com/search?q=india%20online%20gaming%20bill%20rmg%20gambling%20gst%20policy"
+                 target="_blank" rel="noopener" aria-label="Open Google News: RMG & gambling">Read more on Google News</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Regulatory Tracker -->
+  <section id="regulatory-tracker" class="py-5">
+    <div class="container">
+      <h2 class="h3 mb-4">Regulatory Tracker: Primary Sources</h2>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 p-4">
+            <h5 class="mb-3">Central Government & Ministries</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a class="link-light" target="_blank" rel="noopener"
+                   href="https://www.meity.gov.in/">
+                  MeitY (Ministry of Electronics & IT) – Notifications & advisories
+                </a>
+              </li>
+              <li class="mb-2">
+                <a class="link-light" target="_blank" rel="noopener"
+                   href="https://www.pib.gov.in/Allrel.aspx">
+                  PIB Press Releases – Search gaming / esports / online gaming
+                </a>
+              </li>
+              <li class="mb-2">
+                <a class="link-light" target="_blank" rel="noopener"
+                   href="https://egazette.gov.in/">
+                  Gazette of India – Acts, rules, and official publications
+                </a>
+              </li>
+              <li class="mb-2">
+                <a class="link-light" target="_blank" rel="noopener"
+                   href="https://www.incometax.gov.in/iec/foportal/">
+                  Income Tax (TDS on winnings) – Resources & updates
+                </a>
+              </li>
+              <li>
+                <a class="link-light" target="_blank" rel="noopener"
+                   href="https://gst.gov.in/">
+                  GST Portal – Rates, circulars, FAQs related to gaming
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100 p-4">
+            <h5 class="mb-3">Courts & State-level Updates</h5>
+            <ul class="list-unstyled small mb-0">
+              <li class="mb-2">
+                <a class="link-light" target="_blank" rel="noopener"
+                   href="https://main.sci.gov.in/">
+                  Supreme Court of India – Judgments & orders (search “online gaming”)
+                </a>
+              </li>
+              <li class="mb-2">
+                <a class="link-light" target="_blank" rel="noopener"
+                   href="https://legislative.gov.in/">
+                  Legislative Dept. – Central acts/rules, bill texts, and amendments
+                </a>
+              </li>
+              <li class="mb-2">
+                <a class="link-light" target="_blank" rel="noopener"
+                   href="https://news.google.com/search?q=state%20online%20gaming%20act%20notification%20india">
+                  State Notifications – Track new bills & rules via Google News
+                </a>
+              </li>
+              <li>
+                <a class="link-light" target="_blank" rel="noopener"
+                   href="https://news.google.com/search?q=high%20court%20online%20gaming%20india%20judgment">
+                  High Court Rulings – Search notable cases
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Helpful filters -->
+      <div class="card mt-4 p-4">
+        <h5 class="mb-3">Quick Filters (Google News)</h5>
+        <div class="d-flex flex-wrap gap-2">
+          <a class="chip-link"
+             href="https://news.google.com/search?q=india%20online%20gaming%20policy" target="_blank" rel="noopener">Online gaming policy</a>
+          <a class="chip-link"
+             href="https://news.google.com/search?q=india%20esports%20tournaments" target="_blank" rel="noopener">Esports tournaments</a>
+          <a class="chip-link"
+             href="https://news.google.com/search?q=india%20fantasy%20sports%20regulation" target="_blank" rel="noopener">Fantasy sports regulation</a>
+          <a class="chip-link"
+             href="https://news.google.com/search?q=india%20rmg%20gaming%20gst%20tds" target="_blank" rel="noopener">RMG • GST &amp; TDS</a>
+          <a class="chip-link"
+             href="https://news.google.com/search?q=online%20gambling%20india%20bill" target="_blank" rel="noopener">Gambling bills</a>
+          <a class="chip-link"
+             href="https://news.google.com/search?q=gaming%20startups%20funding%20india" target="_blank" rel="noopener">Funding &amp; M&amp;A</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Long-form Explainers for SEO -->
+  <section id="explainers" class="py-5">
+    <div class="container">
+      <h2 class="h3 mb-4">Explainers & Deep Dives</h2>
+      <div class="row g-4">
+        <div class="col-lg-6">
+          <article class="card h-100 p-4">
+            <h5>Fantasy Gaming vs. Real-Money Gaming vs. Gambling</h5>
+            <div class="prose-dark small">
+              <p>
+                India’s gaming vocabulary often blends terms. <strong>Fantasy gaming</strong> typically involves team selection
+                and performance-based points; <strong>real-money gaming (RMG)</strong> includes games where users stake money and can win
+                monetary rewards; <strong>gambling</strong> refers to wagering on outcomes, usually chance-led. Legal treatment can vary by
+                state, by game category (skill vs. chance), and by evolving jurisprudence and policy.
+              </p>
+              <p>
+                Operators frequently implement <em>age-gating</em>, <em>KYC</em>, <em>spending limits</em>, and <em>responsible gaming</em>
+                measures to align with consumer protection expectations. Always consult official sources and local regulations to verify status.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-lg-6">
+          <article class="card h-100 p-4">
+            <h5>How Taxation Touches Gaming: GST, TDS & Winnings</h5>
+            <div class="prose-dark small">
+              <p>
+                Tax rules can influence pricing, rewards, and player behavior. Platforms may be subject to <strong>GST</strong> on supplies, while
+                <strong>TDS</strong> could apply to certain winnings or payouts depending on transaction type and thresholds. For accurate, current rules,
+                refer to official portals and professional advisors.
+              </p>
+              <ul>
+                <li><a class="link-light" href="https://gst.gov.in/" target="_blank" rel="noopener">GST Portal</a> – rates, circulars, FAQs</li>
+                <li><a class="link-light" href="https://www.incometax.gov.in/iec/foportal/" target="_blank" rel="noopener">Income Tax</a> – TDS guides, updates</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-lg-6">
+          <article class="card h-100 p-4">
+            <h5>Player Safety & Responsible Play</h5>
+            <div class="prose-dark small">
+              <p>
+                We track best practices: parental controls, self-exclusion, deposit limits, playtime reminders, and fair-play policies.
+                Operators that publish transparent odds, protect data, and respond to grievances help build a healthier ecosystem.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-lg-6">
+          <article class="card h-100 p-4">
+            <h5>For Founders: Compliance & Operations</h5>
+            <div class="prose-dark small">
+              <p>
+                Startup operators navigate payments (UPI, cards), KYC workflows, fraud monitoring, ad-policy changes, and state-wise legal views.
+                Our coverage highlights go-to resources, court developments, and signals from regulators and industry bodies.
+              </p>
+              <p class="mb-0">
+                Tip: follow <a class="link-light" href="#regulatory-tracker">Regulatory Tracker</a> for official sources.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ (stays dark) -->
+  <section id="faq" class="py-5 bg-dark">
+    <div class="container">
+      <h2 class="h3 mb-4 text-light">FAQ</h2>
+      <div class="accordion accordion-dark" id="faqAcc">
         <div class="accordion-item">
           <h2 class="accordion-header" id="q1">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a1">
@@ -205,7 +435,8 @@
           </h2>
           <div id="a1" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
             <div class="accordion-body">
-              We’re India’s gaming newsroom. We summarize what’s trending—and send you to the action on 99baazi.com.
+              We’re India’s gaming newsroom—covering esports, fantasy, RMG, gambling regulation, and industry business.
+              No promotions or play links here; we focus on information and primary sources.
             </div>
           </div>
         </div>
@@ -213,12 +444,13 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="q2">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2">
-              Will I need a new account?
+              Do you provide legal advice?
             </button>
           </h2>
           <div id="a2" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
             <div class="accordion-body">
-              If you already have a 99Baazi account, just log in on 99baazi.com. New users can sign up there in minutes.
+              No. We provide news and educational explainers. For formal advice, consult legal and tax professionals and check
+              official portals listed in our Regulatory Tracker.
             </div>
           </div>
         </div>
@@ -226,12 +458,13 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="q3">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3">
-              Is this the official redirection?
+              Where can I read official updates?
             </button>
           </h2>
           <div id="a3" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
             <div class="accordion-body">
-              Yes—this page is managed by 99Baazi News and redirects to the official platform at 99baazi.com.
+              Use the <a class="link-light" href="#regulatory-tracker">Regulatory Tracker</a> for MeitY, Gazette of India, PIB, GST, Income Tax,
+              Supreme Court, and state notifications. For broader coverage, try our Google News quick filters.
             </div>
           </div>
         </div>
@@ -239,18 +472,24 @@
     </div>
   </section>
 
-  <!-- Final CTA -->
-  <section id="cta" class="py-5">
+  <!-- Resources CTA (neutral) -->
+  <section id="resources" class="py-5">
     <div class="container text-center">
-      <h2 class="h3">Ready to Play?</h2>
-      <p class="muted mb-4">Click below to continue to the official platform.</p>
-      <a id="ctaBottom" class="btn btn-lg btn-accent px-5"
-         href="https://99baazi.com/?utm_source=99baazi.news&utm_medium=bottom_cta&utm_campaign=redirect-2025"
-         target="_blank" rel="noopener">Go to 99Baazi.com →</a>
-      <div class="mt-3">
-        <a class="link-light small" href="https://wa.me/447724001515?text=Hi%20Team%2099Baazi,%20need%20help%20getting%20started."
-           target="_blank" rel="noopener">Need help? Chat on WhatsApp</a>
+      <h2 class="h3">Keep Reading from Trusted Sources</h2>
+      <p class="muted mb-4">We encourage readers to check official and reputed outlets regularly.</p>
+      <div class="d-flex flex-wrap gap-3 justify-content-center">
+        <a class="btn btn-accent"
+           href="https://news.google.com/search?q=india%20gaming%20industry%20news" target="_blank" rel="noopener">Open Google News</a>
+        <a class="btn btn-outline-light"
+           href="https://www.meity.gov.in/" target="_blank" rel="noopener">Visit MeitY</a>
+        <a class="btn btn-outline-light"
+           href="https://egazette.gov.in/" target="_blank" rel="noopener">Gazette of India</a>
+        <a class="btn btn-outline-light"
+           href="https://www.pib.gov.in/Allrel.aspx" target="_blank" rel="noopener">PIB Releases</a>
       </div>
+      <p class="small text-secondary mt-3">
+        For feedback or tips, write to <a class="link-light" href="mailto:info@99baazi.news">info@99baazi.news</a>.
+      </p>
     </div>
   </section>
 
@@ -263,4 +502,5 @@
   <script src="/assets/js/main.js"></script>
   <script src="/assets/js/include.js"></script>
 </body>
+
 </html>
